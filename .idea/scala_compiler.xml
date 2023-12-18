@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="otus_1_1_480" />
+    <profile name="sbt 1" modules="Spark-Structured-Streaming-Examples,otus_1_1_480" />
     <profile name="sbt 2" modules="test-project">
       <parameters>
         <parameter value="-target:jvm-1.8" />

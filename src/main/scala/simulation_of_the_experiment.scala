@@ -9,6 +9,6 @@ object simulation_of_the_experiment extends App {
     scala.util.Random.shuffle(as).take(2).map(e => if (e == 1) true else false)
   }
   val collection = (1 to 10000).map(_ => takeRandomN(Urn)).filter(_.contains(true))
-  val ver = collection.length / 10000f.toDouble
+  val ver= collection.length / 10000f
     println(ver)
 }
